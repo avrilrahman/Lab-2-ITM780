@@ -1,0 +1,85 @@
+body {
+    font-family: Arial, sans-serif;
+    font-size: 12pt;
+    background-color: palevioletred;
+    color: black;
+    margin: 15pt; 
+}
+
+h1 {
+    font-size: 28pt;
+    color: red;
+    font-weight: bold;
+}
+
+h2 {
+    font-size: 24pt;
+    color: purple;
+}
+
+h3 {
+    font-size: 20pt;
+    color: purple;
+}
+
+
+p {
+    font-family: Arial, sans-serif;
+    font-size: 14pt;
+    color: black;
+}
+
+a:link, a:visited {
+    color: blue;
+    text-decoration: none;
+}
+
+a:hover {
+    color: orange;
+    text-decoration: underline;
+}
+
+a:active {
+    color: red;
+}
+
+
+p[style="bold"] {
+    font-weight: bold;
+}
+
+/ Table for organizing links and descriptions /
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table, th, td {
+    border: 1px solid black;
+}
+
+td {
+    padding: 10px;
+    text-align: left;
+}
+
+ul, ol {
+    padding-left: 20px;
+}
+
+div.link-container {
+    padding: 10px;
+    background-color: #dff2d8; 
+}
+
+/ Blockquote /
+blockquote {
+    margin: 15px;
+    padding: 10px;
+    background-color: lightblue;
+    border-left: 5px solid red;
+}
+
+hr {
+    margin: 20px 0;
+}
